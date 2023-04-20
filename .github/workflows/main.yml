@@ -8,7 +8,8 @@ jobs:
     name: Job para listar Branches de repositório GitHub
     steps:
     - name: List Branches Docker Action
-      uses: geovanams/List-branches-action@main
+      uses: geovanams/List-branches-action@v2
       with:
         owner: geovanams
         repo: public-repo
+
